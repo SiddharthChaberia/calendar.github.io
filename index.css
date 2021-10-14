@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(172, 172, 160);
+}
+table{
+    border: 20px inset rgb(190, 182, 182);
+    border-collapse:separate;
+    width: auto;
+    background: rgb(255, 255, 255);
+    table-layout:auto;
+    /* width:70%; */
+    text-align:center;
+    border-spacing: 15px 20px;
+}
+table td{
+    border: 3px none rgb(145, 145, 122);
+    border-collapse:separate;
+    text-align:left;
+    height: 45px;
+    width:10%;
+
+    transition:.5s linear, border-radius 2s  ease-in 1s;
+}
+a{
+    text-decoration: none;
+    color:Black;
+}
+a:hover{
+    background: rgb(202, 194, 194);
+
+}
+.headuu{
+    font-size: 20px;
+}
+.header{
+    background-color: rgb(88, 101, 209);
+    font-size:25px;
+    height: 35px
+}
+.bottom{
+    border: 3px none rgb(145, 145, 122);
+    text-align:center;
+    
+}
+.bottom1{
+    border: 3px none rgb(145, 145, 122);
+    text-align:right;
+}
+.bottom2{
+    border: 3px none rgb(145, 145, 122);
+    text-align:left;
+}
+.button{
+    width:150px;
+    height:50px;
+    font-size: 120%;
+    transition:.5s linear, border-radius 2s  ease-in 1s;
+}
+.button:hover{
+    background-color: rgb(179, 161, 161);
+}
+.td{
+    text-align:center;
+}
+.mainbutton{
+    text-align: center;
+    width:200px;
+    height:50px;
+    text-transform: uppercase;
+    font-size:30px;
+    
+    transition:.5s linear, border-radius 2s  ease-in 1s;
+}
+.mainbutton:hover{
+    background-color: rgb(179,161,161);
+}
+.event{
+    background-color: rgb(155, 207, 207);
+}
+table tr:nth-child(odd){
+    background:rgb(228, 228, 134);
+}
+table tr:nth-child(even){
+    background: rgb(148, 148, 228);
+}
