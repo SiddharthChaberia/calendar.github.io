@@ -16,7 +16,7 @@ table td{
     border-collapse:separate;
     text-align:left;
     height: 45px;
-    width:10%;
+    width:12%;
 
     transition:.5s linear, border-radius 2s  ease-in 1s;
 }
